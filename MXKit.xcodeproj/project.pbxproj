@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0466CFD01F5943E8004142BF /* FSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466CFCF1F5943E8004142BF /* FSPerson.m */; };
 		84F9F2EC1DA9313200BC7ECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F2EB1DA9313200BC7ECD /* main.m */; };
 		84F9F2EF1DA9313200BC7ECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F2EE1DA9313200BC7ECD /* AppDelegate.m */; };
 		84F9F2F21DA9313200BC7ECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9F2F11DA9313200BC7ECD /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0466CFCE1F5943E8004142BF /* FSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPerson.h; sourceTree = "<group>"; };
+		0466CFCF1F5943E8004142BF /* FSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPerson.m; sourceTree = "<group>"; };
 		84F9F2E71DA9313200BC7ECD /* MXKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F9F2EB1DA9313200BC7ECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F9F2ED1DA9313200BC7ECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			children = (
 				84F9F2ED1DA9313200BC7ECD /* AppDelegate.h */,
 				84F9F2EE1DA9313200BC7ECD /* AppDelegate.m */,
+				0466CFCE1F5943E8004142BF /* FSPerson.h */,
+				0466CFCF1F5943E8004142BF /* FSPerson.m */,
 				84F9F2F01DA9313200BC7ECD /* ViewController.h */,
 				84F9F2F11DA9313200BC7ECD /* ViewController.m */,
 				84F9F2F31DA9313200BC7ECD /* Main.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F9F2F21DA9313200BC7ECD /* ViewController.m in Sources */,
+				0466CFD01F5943E8004142BF /* FSPerson.m in Sources */,
 				84F9F2EF1DA9313200BC7ECD /* AppDelegate.m in Sources */,
 				84F9F2EC1DA9313200BC7ECD /* main.m in Sources */,
 			);
@@ -299,6 +305,7 @@
 				84F9F3001DA9313200BC7ECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
