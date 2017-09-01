@@ -10,4 +10,18 @@
 
 @implementation FSBranch1
 
+- (instancetype)init
+{
+    if (self = [super init])
+    {
+        [self demo];
+    }
+    return self;
+}
+
+- (void)demo
+{
+    NSLog(@"修改branch1");
+}
+
 @end
